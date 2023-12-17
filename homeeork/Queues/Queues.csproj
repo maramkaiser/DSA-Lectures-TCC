@@ -4,14 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{560443F0-D566-4D6B-A44D-B624166704DA}</ProjectGuid>
+    <ProjectGuid>{49FDADFF-1BE7-45D1-850C-AA7AF236B989}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lec_06_Training_Forum_Example</RootNamespace>
-    <AssemblyName>Lec_06_Training_Forum_Example</AssemblyName>
+    <RootNamespace>Queues</RootNamespace>
+    <AssemblyName>Queues</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,8 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Member.cs" />
-    <Compile Include="MembersList.cs" />
+    <Compile Include="Queue.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
